@@ -1,0 +1,42 @@
+body {
+    background-color: #780000; 
+}
+table {
+border-collapse: collapse;
+margin: 0 auto;
+
+}
+
+td {
+width: 100px;
+height: 100px;
+text-align: center;
+vertical-align: middle;
+border: 2px solid gray;
+background-color: #fdf0d5;
+}
+
+.x {
+color: #669bbc;
+font-size: 80px;
+}
+
+.o {
+color: #c1121f;
+font-size: 80px;
+}
+
+.win {
+background-color:#59cd90 ;
+}
+
+.container {
+display: flex;
+flex-direction: column;
+}
+
+#reset {
+color: #003049;
+margin: 48px 40%;
+padding: 20px;
+}
